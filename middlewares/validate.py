@@ -10,7 +10,7 @@ create_feedback = {
 		"firstname": { "type": "string", "minLength": 2, "maxLength": 15},
 		"lastname": { "type": "string", "minLength": 2, "maxLength": 15},
 		"number": { "type": "string", "minLength": 11, "maxLength": 11},
-		"email": { "type": "string", "format": "email", "maxLength": 30},
+		"email": { "type": "string", "format": "email", "minLength": 2, "maxLength": 50},
 		"text": { "type": "string", "minLength": 10}
 	}
 }
@@ -23,7 +23,7 @@ create_claim = {
 		"firstname": { "type": "string", "minLength": 2, "maxLength": 15},
 		"lastname": { "type": "string", "minLength": 2, "maxLength": 15},
 		"number": { "type": "string", "minLength": 11, "maxLength": 11},
-		"email": { "type": "string", "format": "email", "maxLength": 30},
+		"email": { "type": "string", "format": "email", "minLength": 2, "maxLength": 50},
 		"text": { "type": "string", "minLength": 10}
 	}
 }
