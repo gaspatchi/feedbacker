@@ -3,5 +3,5 @@ import prometheus_client
 
 registry = CollectorRegistry()
 
-created_feedbacks = Counter("feedbacker_created_feedbacks", "Количество созданых обращений", ["type"], registry=registry)
+created_feedbacks = Counter("feedbacker_created_feedbacks", "Количество созданных обращений", ["type"], registry=registry)
 count_feedbacks = Counter("feedbacker_selects_count_feedbacks", "Количество получений обращений", registry=registry)
